@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/5a905c2157c562994900009d/train/javascript
 
-//My solution > Wrong
+//My solution
 /* function productArray(numbers){
   const multiplyArray = [];
 
