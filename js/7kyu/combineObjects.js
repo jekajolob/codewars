@@ -14,3 +14,17 @@ function combine(...objs) {
 const objA = { a: 10, b: 20, c: 30 }
 const objB = { a: 3, c: 6, d: 3 }
 console.log(combine(objA, objB)) //{ a: 13, b: 20, c: 36, d: 3 }
+
+
+// other solution
+/* function combine() {
+    var obj = {}
+  
+    for (var i = 0; i < arguments.length; i++) {
+          for (var key in arguments[i]) {
+            obj[key] = obj[key] ? obj[key] + arguments[i][key]: arguments[i][key]
+          }
+    }
+  
+    return obj;
+  } */
