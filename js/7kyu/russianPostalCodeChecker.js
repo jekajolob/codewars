@@ -29,4 +29,7 @@ console.log(zipvalidate( '12A483' ))
 console.log(zipvalidate( '1@63' ))
 console.log(zipvalidate( '598328' ))
 
-//console.log(typeof('1@63'))
+// other solutions
+function zipvalidate(postcode){
+    return /^[12346]\d{5}$/.test(postcode)
+  }//z.
