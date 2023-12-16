@@ -20,3 +20,15 @@ function sumOfDifferences(arr) {
 }
 
 console.log(sumOfDifferences([1, 2, 10]))
+
+// other solution
+//1
+function sumOfDifferences(arr) {
+    return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0;
+}
+
+//2
+const sumOfDifferences = arr => arr
+  .sort((a, b) => b - a)
+  .map((a, i) => a - arr[i + 1] || 0)
+  .reduce((a, b) => a + b, 0);
