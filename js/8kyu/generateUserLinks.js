@@ -1,0 +1,7 @@
+// https://www.codewars.com/kata/57037ed25a7263ac35000c80/train/javascript
+
+function generateLink(user) {
+    return 'http://www.codewars.com/users/' + encodeURIComponent(user)
+  }
+
+  console.log(generateLink('matt c'))
