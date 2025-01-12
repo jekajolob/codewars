@@ -13,4 +13,3 @@ function digitalRoot(n) {
 console.log(digitalRoot(4569999999999))
 
 //not finished
-// Ho4u Maksa v zhopu!
